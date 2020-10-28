@@ -1,5 +1,17 @@
 ﻿# Mi899
 
+<a href="https://github.com/miyconst/Mi899/releases/latest">
+    <img src="https://img.shields.io/github/v/release/miyconst/Mi899.svg?color=silver&style=for-the-badge&logo=xiaomi" alt="Latest Version"/>
+</a>
+<a href="https://github.com/miyconst/Mi899/releases/download/1.0.3/Mi899-1.0.3.zip">
+    <img src="https://img.shields.io/github/downloads/miyconst/Mi899/total.svg?color=silver&style=for-the-badge&logo=xiaomi" alt="Downloads"/>
+</a>
+<a href="https://github.com/miyconst/Mi899/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/github/license/miyconst/Mi899.svg?style=for-the-badge&logo=xiaomi" alt="License"/>
+</a>
+
+------------
+
 This application is designed to simplify the life of the Chinese LGA 2011-3 X99 motherboard owners and collect useful information about the motherboards and compatible BIOS modifications.
 
 Read full readme - [`src/Mi899/README.md`](src/Mi899/README.md).
@@ -20,7 +32,9 @@ Read full readme - [`src/Mi899/README.md`](src/Mi899/README.md).
 
 - English by [@miyconst](https://github.com/miyconst).
 - French (Français) by [@Nicolas-93](https://github.com/Nicolas-93).
+- Italian (Italiano) by Emanuele Galdieri.
 - Portuguese (Portugues) by [@osamabilad4](https://github.com/osamabilad4).
+- Russian (Русский) by [@chandrey206](https://github.com/chandrey206).
 - Spanish (Español) by [@skyirim](https://github.com/skyirim).
 - Swedish (Svenska) by [@gabichernia](https://github.com/gabichernia).
 - Ukrainian (Українська) by [@miyconst](https://github.com/miyconst).

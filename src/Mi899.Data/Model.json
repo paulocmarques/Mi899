@@ -13,6 +13,10 @@
       "Code": "Fr"
     },
     {
+      "Name": "Italiano",
+      "Code": "It"
+    },
+    {
       "Name": "Português",
       "Code": "Pt"
     },
@@ -23,6 +27,10 @@
     {
       "Name": "Українська",
       "Code": "Ua"
+    },
+    {
+      "Name": "Русский",
+      "Code": "Ru"
     }
   ],
   "Motherboards": [
@@ -277,7 +285,7 @@
       "Version": "2.0",
       "Tags": [ "huananzhi", "f8d", "ddr4" ],
       "Description": "",
-      "ToolIds": [],
+      "ToolIds": [ "afu-win-x64-5.12.03.2045" ],
       "Images": [
         {
           "Name": "Top view",
@@ -319,7 +327,7 @@
       "Version": "",
       "Tags": [ "huananzhi", "t8d", "ddr3" ],
       "Description": "",
-      "ToolIds": [],
+      "ToolIds": [ "afu-win-x64-5.12.03.2045" ],
       "Images": [
         {
           "Name": "Top view",
@@ -431,6 +439,220 @@
           "Url": "https://xeon-e5450.ru/socket-2011-3/veineda-x99-v367/"
         }
       ]
+    },
+    {
+      "Id": "ks-x99-d4",
+      "Name": " Kllisre X99 D4",
+      "Brand": " Kllisre ",
+      "Model": " X99-D4",
+      "Version": "1.0",
+      "Tags": [ "kllisre ", "d4", "ddr4" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Kllisre X99-D4/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/Kllisre X99-D4/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "xeon-e5450.ru",
+          "Name": "🇷🇺 Kllisre X99 D4",
+          "Url": " https://xeon-e5450.ru/socket-2011-3/jingsha-kllisre-x99-d4/"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Detailed review of Kllisre X99 D4 LGA 2011-3 | CPU Overclocking | Turbo Boost Unlock",
+          "Url": "https://youtu.be/3iPQvGxKjG4"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 Детальний огляд Kllisre X99 D4 LGA 2011-3 | Розгін ЦП | Розблокування Турбо Бусту",
+          "Url": "https://youtu.be/Oy_g4XidwAY"
+        }
+      ]
+    },
+    {
+      "Id": "js-x99-d4",
+      "Name": "JingSha X99-D4",
+      "Brand": "JingSha ",
+      "Model": " X99-D4",
+      "Version": "",
+      "Tags": [ "jingsha ", "d4", "ddr4" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/JingSha X99-D4/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/JingSha X99-D4/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "xeon-e5450.ru",
+          "Name": "🇷🇺 JingSha X99-D4",
+          "Url": "https://xeon-e5450.ru/socket-2011-3/jingsha-kllisre-x99-d4/"
+        }
+      ]
+    },
+    {
+      "Id": "js-x99-gt",
+      "Name": "JingSha X99-GT",
+      "Brand": "JingSha",
+      "Model": "X99-GT",
+      "Version": "1.0",
+      "Tags": [ "JingSha", "gt", "ddr4" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/JingSha X99-GT/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/JingSha X99-GT/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Detailed review of JingSha X99-GT LGA 2011-3 | Turbo Boost Unlock and CPU overclock",
+          "Url": "https://youtu.be/M2QPbSqkrgU"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 Детальний огляд JingSha X99-GT LGA 2011-3 | Розблокування Турбо-Бусту та розгін процесора",
+          "Url": "https://youtu.be/INI0PptEobI"
+        },
+        {
+          "Author": "xeon-e5450.ru",
+          "Name": "🇷🇺 JingSha X99-GT",
+          "Url": "https://xeon-e5450.ru/socket-2011-3/x99-gt-v1-0/"
+        }
+      ]
+    },
+    {
+      "Id": "js-x99m-g2",
+      "Name": "JingSha X99M-G2",
+      "Brand": "JingSha",
+      "Model": "X99M-G2",
+      "Version": "1.0",
+      "Tags": [ "JingSha", "g2", "gt", "ddr4" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000", "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/JingSha X99M-G2/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/JingSha X99M-G2/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "ТехноПланета",
+          "Name": "🇷🇺 SZMZ X99M-G2 V1.0 - самая доступная плата для Xeon E5 2678v3. Обзор, настройка, лучший BIOS",
+          "Url": "https://www.youtube.com/watch?v=-thQZHU6n0I"
+        }
+      ]
+    },
+    {
+      "Id": "js-x99m-h",
+      "Name": "JingSha X99M-H",
+      "Brand": "JingSha",
+      "Model": "X99M-H",
+      "Version": "1.0",
+      "Tags": [ "JingSha", "h", "ddr4" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000", "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/JingSha X99M-H/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/JingSha X99M-H/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 JingSha X99M-H(2) – detailed review, E5-1660 V3, E5-2678 V3, E5-2620 V4, i7-5820k, i7-6800k",
+          "Url": "https://youtu.be/RwBP8cpNXs8"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 JingSha X99M-H(2) – детальний огляд, E5-1660 V3, E5-2678 V3, E5-2620 V4, i7-5820k, i7-6800k",
+          "Url": "https://youtu.be/9nLB7wN_8uA"
+        }
+      ]
+    },
+    {
+      "Id": "js-x99m-h2",
+      "Name": "JingSha X99M-H2",
+      "Brand": "JingSha",
+      "Model": "X99M-H2",
+      "Version": "1.0",
+      "Tags": [ "JingSha", "h2", "ddr4" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000", "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/JingSha X99M-H2/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/JingSha X99M-H2/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 JingSha X99M-H(2) – detailed review, E5-1660 V3, E5-2678 V3, E5-2620 V4, i7-5820k, i7-6800k",
+          "Url": "https://youtu.be/RwBP8cpNXs8"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 JingSha X99M-H(2) – детальний огляд, E5-1660 V3, E5-2678 V3, E5-2620 V4, i7-5820k, i7-6800k",
+          "Url": "https://youtu.be/9nLB7wN_8uA"
+        }
+      ]
+    },
+    {
+      "Id": "az-x99-pe7",
+      "Name": "Alzenit X99-PE7",
+      "Brand": "Alzenit",
+      "Model": "X99-PE7",
+      "Version": "",
+      "Tags": [ "alzenit", "runing", "x99", "ddr4", "pe7" ],
+      "Description": "",
+      "ToolIds": [ "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Alzenit X99-PE7/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/Alzenit X99-PE7/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+      ]
     }
   ],
   "Bioses": [
@@ -465,9 +687,9 @@
     {
       "Id": "hz-x99-tf.bi.rbe.rom",
       "Name": "BY99RD25 BIOS for Huananzhi X99-TF Republic of Belarus Edition",
-      "MotherboardIds": [ "hz-x99-tf" ],
+      "MotherboardIds": [ "hz-x99-tf", "js-x99-d8" ],
       "FileName": "Bioses/huananzhi-x99-tf.bi.rbe.rom.zip",
-      "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.",
+      "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.\r\nThis BIOS has problems with legacy boot, UEFI works well.",
       "Properties": {
         "BIOS Settings": "Default",
         "Author": "BIOS-iEngineer",
@@ -478,10 +700,10 @@
     },
     {
       "Id": "hz-x99-tf.bi.rbe.mi8.rom",
-      "Name": "BY99RD25 BIOS for Huananzhi X99-TF Republic of Belarus Edition / Mi8",
-      "MotherboardIds": [ "hz-x99-tf" ],
+      "Name": "BY99RD25 BIOS for Huananzhi X99-TF Republic of Belarus Edition, Mi8",
+      "MotherboardIds": [ "hz-x99-tf", "js-x99-d8" ],
       "FileName": "Bioses/huananzhi-x99-tf.bi.rbe.mi8.rom.zip",
-      "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.",
+      "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.\r\nThis BIOS has problems with legacy boot, UEFI works well.",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
         "O.C. Features": "Unlocked",
@@ -608,7 +830,7 @@
     {
       "Id": "mn-x99z",
       "Name": "Stock Machinist X99Z BIOS",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.rom.zip",
       "Description": "",
       "Properties": {
@@ -620,7 +842,7 @@
     {
       "Id": "mn-x99z.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -633,7 +855,7 @@
     {
       "Id": "mn-x99z.tu.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, TU EFI",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -647,7 +869,7 @@
     {
       "Id": "mn-x99z.mi8.macos",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, macOS",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.mi8.macos.rom.zip",
       "Description": "",
       "Properties": {
@@ -661,7 +883,7 @@
     {
       "Id": "mn-x99z.tu.v3p0.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, TU FFS",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p0.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -677,7 +899,7 @@
     {
       "Id": "mn-x99z.tu.v3p50.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, TU FFS -50/50mv",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p50.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -693,7 +915,7 @@
     {
       "Id": "mn-x99z.tu.v3p70.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, TU FFS -70/50mv",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p70.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -709,7 +931,7 @@
     {
       "Id": "mn-x99z.tu.v3p80.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, TU FFS -80/50mv",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p80.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -725,7 +947,7 @@
     {
       "Id": "mn-x99z.tu.v3p90.mi8",
       "Name": "Stock Machinist X99Z BIOS, RAM timings, TU FFS -90/50mv",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p90.mi8.rom.zip",
       "Description": "",
       "Properties": {
@@ -739,18 +961,144 @@
       "Tags": [ "machinist", "x99z", "tu", "x99", "c612" ]
     },
     {
-      "Id": "mn-x99z.bi.rbe.rom",
+      "Id": "mn-x99z.bi.rbe",
       "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition",
-      "MotherboardIds": [ "mn-x99z" ],
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.bi.rbe.rom.zip",
-      "Description": "I have not yet tested this BIOS myself.",
+      "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
         "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
         "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102"
       },
       "Chipsets": [ "X99", "C612" ],
-      "Tags": [ "machinist", "x99z", "x99", "c612" ]
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.tu.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8, TU EFI",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.tu.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102",
+        "Turbo Unlock Driver": "Manual EFI installation is required"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.tu.v3p0.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8, TU FFS",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.tu.v3p0.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102",
+        "Turbo Unlock Driver": "v3_payne_0_0.ffs"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.tu.v3p50.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8, TU FFS -50/50mv",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.tu.v3p50.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102",
+        "Turbo Unlock Driver": "v3_payne_50_50.ffs"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.tu.v3p70.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8, TU FFS -70/50mv",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.tu.v3p70.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102",
+        "Turbo Unlock Driver": "v3_payne_70_50.ffs"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.tu.v3p80.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8, TU FFS -80/50mv",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.tu.v3p80.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102",
+        "Turbo Unlock Driver": "v3_payne_80_50.ffs"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
+    },
+    {
+      "Id": "mn-x99z.bi.rbe.tu.v3p90.mi8",
+      "Name": "C612RD23 BIOS for Machinist X99Z Republic of Belarus Edition, Mi8, TU FFS -90/50mv",
+      "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
+      "FileName": "Bioses/machinist-x99z.bi.rbe.tu.v3p90.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "O.C. Features": "Unlocked",
+        "IIO Configuration": "Unlocked",
+        "Author": "BIOS-iEngineer",
+        "Release": "09/25/2020 - C612RD23R BIOS for MACHINIST X99Z V102 Motherboard (07/31/2020)",
+        "URL": "https://github.com/BIOS-iEngineer/MACHINIST-X99ZV102",
+        "Turbo Unlock Driver": "v3_payne_90_50.ffs"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "machinist", "alzenit", "x99z", "x99", "c612" ]
     },
     {
       "Id": "veineda-x99",
@@ -861,6 +1209,161 @@
       },
       "Chipsets": [ "X99", "C612" ],
       "Tags": [ "veineda", "x99", "c612", "tu" ]
+    },
+    {
+      "Id": "alzenit-x99-pe7",
+      "Name": "Stock Alzenit X99-PE7 BIOS",
+      "MotherboardIds": [ "az-x99-pe7" ],
+      "FileName": "Bioses/alzenit-x99-pe7.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "alzenit", "runing", "x99", "c612", "pe7" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2",
+      "Name": "Stock JingSha X99M-G2 BIOS",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default"
+      },
+      "Chipsets": [ "B85", "Q85" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-h",
+      "Name": "Stock JingSha X99M-H BIOS",
+      "MotherboardIds": [ "js-x99m-h" ],
+      "FileName": "Bioses/jingsha-x99m-h.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default"
+      },
+      "Chipsets": [ "H81" ],
+      "Tags": [ "jingsha", "x99m", "h", "b81" ]
+    },
+    {
+      "Id": "jingsha-x99m-h2",
+      "Name": "Stock JingSha X99M-H2 BIOS",
+      "MotherboardIds": [ "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-h2.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default"
+      },
+      "Chipsets": [ "Q85" ],
+      "Tags": [ "jingsha", "x99m", "g2", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, Miyconst optimal",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.tu.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, TU EFI",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.tu.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked",
+        "Turbo Unlock Driver": "Manual EFI installation is required"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.tu.v3p0.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, TU FFS",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.tu.v3p0.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked",
+        "CPU Voltage": "Default",
+        "IMC Voltage": "Default",
+        "Turbo Unlock Driver": "v3_payne_0_0.ffs"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.tu.v3p50.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, TU FFS -50/50mv",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.tu.v3p50.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked",
+        "CPU Voltage": "-50mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "v3_payne_50_50.ffs"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.tu.v3p70.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, TU FFS -70/50mv",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.tu.v3p70.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked",
+        "CPU Voltage": "-70mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "v3_payne_70_50.ffs"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.tu.v3p80.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, TU FFS -80/50mv",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.tu.v3p80.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked",
+        "CPU Voltage": "-80mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "v3_payne_80_50.ffs"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
+    },
+    {
+      "Id": "jingsha-x99m-g2.tu.v3p90.mi8",
+      "Name": "Stock JingSha X99M-G2 BIOS, TU FFS -90/50mv",
+      "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
+      "FileName": "Bioses/jingsha-x99m-g2.tu.v3p90.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "RAM timings": "Unlocked",
+        "CPU Voltage": "-90mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "v3_payne_90_50.ffs"
+      },
+      "Chipsets": [ "B85", "Q85", "H81" ],
+      "Tags": [ "jingsha", "x99m", "g2", "b85", "q85" ]
     }
   ],
   "Tools": [
