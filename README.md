@@ -3,12 +3,16 @@
 <a href="https://github.com/miyconst/Mi899/releases/latest">
     <img src="https://img.shields.io/github/v/release/miyconst/Mi899.svg?color=silver&style=for-the-badge&logo=xiaomi" alt="Latest Version"/>
 </a>
-<a href="https://github.com/miyconst/Mi899/releases/download/1.0.3/Mi899-1.0.3.zip">
+<a href="https://github.com/miyconst/Mi899/releases/download/1.0.4/Mi899-1.0.4.zip">
     <img src="https://img.shields.io/github/downloads/miyconst/Mi899/total.svg?color=silver&style=for-the-badge&logo=xiaomi" alt="Downloads"/>
 </a>
 <a href="https://github.com/miyconst/Mi899/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/miyconst/Mi899.svg?style=for-the-badge&logo=xiaomi" alt="License"/>
 </a>
+
+------------
+
+Alternatively you can [download Mi899 from Microsoft OneDrive](https://1drv.ms/u/s!AtZZXDjjb94kgY1URfN0g6vTewMbdg?e=YPRl1z).
 
 ------------
 
