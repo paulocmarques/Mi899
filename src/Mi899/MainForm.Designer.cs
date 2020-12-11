@@ -211,7 +211,7 @@
             // 
             this.tsslVersion.Name = "tsslVersion";
             this.tsslVersion.Size = new System.Drawing.Size(301, 25);
-            this.tsslVersion.Text = "Mi899 Version 1.0.5 - Copyright © Miyconst";
+            this.tsslVersion.Text = "Mi899 Version 1.0.6 - Copyright © Miyconst";
             // 
             // MainForm
             // 
@@ -226,6 +226,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mi899 - X99 Tool Set";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.tlpMain.ResumeLayout(false);
