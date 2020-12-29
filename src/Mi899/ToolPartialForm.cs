@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,13 +36,14 @@ namespace Mi899
             tlpRightColumn.Controls.Add(_wbReadme, 0, 0);
         }
 
-        public void LoadData([NotNull] IMotherboard motherboard, [NotNull] ITool tool)
+        public void LoadData([NotNull] IMotherboard motherboard, [NotNull] ITool tool, IBios selectedBios = null)
         {
             _motherboard = motherboard ?? throw new ArgumentNullException(nameof(motherboard)); ;
             _tool = tool ?? throw new ArgumentNullException(nameof(tool));
 
             txtMotherboard.Text = motherboard.Name;
             txtMotherboardVersion.Text = motherboard.Version;
+            txtMotherboardDescription.Text = motherboard.Description;
             txtTool.Text = tool.Name;
             txtToolVersion.Text = tool.Version;
 
@@ -54,7 +56,15 @@ namespace Mi899
                     .ToArray();
                 ddlBioses.Items.Clear();
                 ddlBioses.Items.AddRange(bioses);
-                ddlBioses.SelectedItem = bioses.FirstOrDefault();
+
+                if (selectedBios == null)
+                {
+                    ddlBioses.SelectedItem = bioses.FirstOrDefault();
+                }
+                else
+                {
+                    ddlBioses.SelectedItem = bioses.First(x => x.Source.Equals(selectedBios));
+                }
             }
         }
 
@@ -65,7 +75,6 @@ namespace Mi899
             string md = i18n.Get(txtReadme.Text, this.GetI18nCompatibleParent().Name, Name, txtReadme.Name, nameof(TextBox.Text));
             string html = _mdToHtmlConverter.Convert(md);
             _wbReadme.DocumentText = html;
-
         }
 
         public IEnumerable<IComponent> SelectI18nCompatibleComponents()
@@ -78,6 +87,7 @@ namespace Mi899
                 btnDump,
                 btnFlash,
                 cbExecuteScript,
+                btnSelectBiosFile
             };
         }
 
@@ -126,6 +136,27 @@ namespace Mi899
                 txtBiosDescription.Text = string.Empty;
                 txtBiosProperties.Text = string.Empty;
             }
+        }
+
+        private void btnSelectBiosFile_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = ofdBiosFile.ShowDialog();
+
+            if (dr != DialogResult.OK)
+            {
+                return;
+            }
+
+            FileInfo fi = new FileInfo(ofdBiosFile.FileName);
+
+            if (!fi.Exists)
+            {
+                MessageBox.Show("File not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            IBios bios = _model.AddBiosFromFile(_motherboard, fi.FullName);
+            LoadData(_motherboard, _tool, bios);
         }
     }
 }

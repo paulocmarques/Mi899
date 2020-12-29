@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://github.com/miyconst/Mi899</PackageProjectUrl>
     <PackageIcon>Mi866.png</PackageIcon>
     <PackageTags>x99 lga2011v3 fpt afuwin machinist huananzhi jingsha xeon bios tu</PackageTags>
-    <Version>1.0.6</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -122,6 +122,72 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Bioses\jingsha-x99m-h2.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.s3tt.10050.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.s3tt.5050.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.s3tt.6050.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.s3tt.7050.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.s3tt.8050.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.oc.ru.s3tt.9050.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99-k9.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.s3tt.10050.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.s3tt.5050.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.s3tt.6050.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.s3tt.7050.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.s3tt.8050.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.s3tt.9050.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.tu.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.tu.v3p50.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.tu.v3p60.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.tu.v3p70.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.tu.v3p80.mi8.rom.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Bioses\machinist-x99z-c612rd24.tu.v3p90.mi8.rom.zip">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Bioses\machinist-x99z.bi.rbe.mi8.rom.zip">
@@ -302,6 +368,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Images\Kllisre X99-D4\TopView.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Machinist X99-K9\IoPanel.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Machinist X99-K9\TopView.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Images\Machinist X99Z\IoPanel.jpg">

@@ -3,7 +3,7 @@
 <a href="https://github.com/miyconst/Mi899/releases/latest">
     <img src="https://img.shields.io/github/v/release/miyconst/Mi899.svg?color=silver&style=for-the-badge&logo=xiaomi" alt="Latest Version"/>
 </a>
-<a href="https://github.com/miyconst/Mi899/releases/download/1.0.6/Mi899-1.0.6.zip">
+<a href="https://github.com/miyconst/Mi899/releases/download/1.1.0/Mi899-1.1.0.zip">
     <img src="https://img.shields.io/github/downloads/miyconst/Mi899/total.svg?color=silver&style=for-the-badge&logo=xiaomi" alt="Downloads"/>
 </a>
 <a href="https://github.com/miyconst/Mi899/blob/master/LICENSE.md">
@@ -37,6 +37,7 @@ Read full readme - [`src/Mi899/README.md`](src/Mi899/README.md).
 - English by [@miyconst](https://github.com/miyconst).
 - French (Français) by [@Nicolas-93](https://github.com/Nicolas-93).
 - Italian (Italiano) by Emanuele Galdieri.
+- Polish (Polski) by [@Finchsize](https://github.com/Finchsize).
 - Portuguese (Portugues) by [@osamabilad4](https://github.com/osamabilad4).
 - Russian (Русский) by [@chandrey206](https://github.com/chandrey206).
 - Spanish (Español) by [@skyirim](https://github.com/skyirim).
