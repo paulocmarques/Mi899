@@ -281,6 +281,48 @@
       ]
     },
     {
+      "Id": "hz-x99-zd4",
+      "Name": "Huananzhi X99-ZD4",
+      "Brand": "Huananzhi",
+      "Model": "X99-ZD4",
+      "Version": "",
+      "Tags": [ "huananzhi", "zd4", "ddr4", "b85" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Huananzhi X99-ZD4/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/Huananzhi X99-ZD4/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Huananzhi",
+          "Name": "🇨🇳 Official page",
+          "Url": "http://www.huananzhi.com/html/1/149/150/566.html"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Huananzhi X99-ZD4 – detailed review | E5-2678 V3 | i7-6800k | BIOS | O.C. | VRM | Mi899",
+          "Url": "https://youtu.be/Capar-fJZ_w"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 Huananzhi X99-ZD4 – детальний огляд | E5-2678 V3 | i7-6800k | BIOS | Розгін | VRM | Mi899",
+          "Url": "https://youtu.be/aLuJV1PwdN4"
+        },
+        {
+          "Author": "xeon-e5450.ru",
+          "Name": "🇷🇺 Huananzhi X99-ZD4",
+          "Url": "https://xeon-e5450.ru/socket-2011-3/huananzhi-x99-zd4/"
+        }
+      ]
+    },
+    {
       "Id": "js-x99-d8",
       "Name": "JingSha X99 D8",
       "Brand": "JingSha",
@@ -561,6 +603,11 @@
           "Author": "Miyconst",
           "Name": "🇺🇦 Machinist X99-RS9 – детальний огляд | E5-2678 V3 | i7-6800k | BIOS | Розгін | VRM | Mi899",
           "Url": "https://youtu.be/yJUKIjyyb5Q"
+        },
+        {
+          "Author": "xeon-e5450.ru",
+          "Name": "🇷🇺 Machinist X99-RS9",
+          "Url": "https://xeon-e5450.ru/socket-2011-3/machinist-x99-rs9/"
         }
       ]
     },
@@ -922,6 +969,7 @@
       "Name": "Stock Huananzhi X99-TF",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-tf.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-tf.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -934,6 +982,7 @@
       "Name": "Stock Huananzhi X99-TF, 2020.08.17 update",
       "MotherboardIds": [ "hz-x99-tf" ],
       "FileName": "Bioses/huananzhi-x99-tf-20200817.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-tf-20200817.rom.zip",
       "Description": "Official Huananzhi BIOS update:\r\n-Optimized internal keyboard compatibility.\r\n-Enable 'Above 4G Decoding' option.\r\n-Audio management cannot select access device (I have no clue what it means).",
       "Properties": {
         "WARNING": "This BIOS may brick your motherboard when flashed with FPT/AfuWin",
@@ -950,6 +999,7 @@
       "Name": "BY99RD25 for Huananzhi X99-TF Republic of Belarus Edition",
       "MotherboardIds": [ "hz-x99-tf", "js-x99-d8" ],
       "FileName": "Bioses/huananzhi-x99-tf.bi.rbe.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-tf.bi.rbe.rom.zip",
       "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.\r\nThis BIOS has problems with legacy boot, UEFI works well.\r\n⚠️ Some early samples of Huananzhi X99-TF have defective BIOS chips which are too small for this BIOS.",
       "Properties": {
         "BIOS Settings": "Default",
@@ -964,6 +1014,7 @@
       "Name": "BY99RD25 for Huananzhi X99-TF Republic of Belarus Edition, Mi8",
       "MotherboardIds": [ "hz-x99-tf", "js-x99-d8" ],
       "FileName": "Bioses/huananzhi-x99-tf.bi.rbe.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-tf.bi.rbe.mi8.rom.zip",
       "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.\r\nThis BIOS has problems with legacy boot, UEFI works well.\r\n⚠️ Some early samples of Huananzhi X99-TF have defective BIOS chips which are too small for this BIOS.",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -979,6 +1030,7 @@
       "Name": "Stock Huananzhi X99-F8, Miyconst optimized",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-f8.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal"
@@ -991,6 +1043,7 @@
       "Name": "Stock JingSha X99-D8",
       "MotherboardIds": [ "js-x99-d8" ],
       "FileName": "Bioses/jingsha-x99-d8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-d8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1003,6 +1056,7 @@
       "Name": "Stock JingSha X99-D8, RAM timings",
       "MotherboardIds": [ "js-x99-d8" ],
       "FileName": "Bioses/jingsha-x99-d8-svk.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-d8-svk.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -1018,6 +1072,7 @@
       "Name": "Stock Huananzhi X99-F8, TU FFS",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-f8.tu.v3p0.ffs.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.tu.v3p0.ffs.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -1033,6 +1088,7 @@
       "Name": "Stock Huananzhi X99-F8, TU FFS -50/50mv",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-f8.tu.v3p50.ffs.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.tu.v3p50.ffs.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1048,6 +1104,7 @@
       "Name": "Stock Huananzhi X99-F8, TU FFS -70/50mv",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-f8.tu.v3p70.ffs.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.tu.v3p70.ffs.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1063,6 +1120,7 @@
       "Name": "Stock Huananzhi X99-F8, TU FFS -80/50mv",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-f8.tu.v3p80.ffs.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.tu.v3p80.ffs.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1078,6 +1136,7 @@
       "Name": "Stock Huananzhi X99-F8, TU FFS -90/50mv",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
       "FileName": "Bioses/huananzhi-x99-f8.tu.v3p90.ffs.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.tu.v3p90.ffs.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1089,10 +1148,139 @@
       "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
     },
     {
+      "Id": "hz-x99-f8.s3tt.7050.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -70/50mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.7050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.7050.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-70mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.8050.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -80/50mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.8050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.8050.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-80mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.9050.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -90/50mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.9050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.9050.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-90mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.9060.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -90/60mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.9060.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.9060.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-90mv",
+        "IMC Voltage": "-60mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.9070.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -90/70mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.9070.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.9070.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-90mv",
+        "IMC Voltage": "-70mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.10050.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -100/50mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.10050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.10050.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-100mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.10060.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -100/60mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.10060.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.10060.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-100mv",
+        "IMC Voltage": "-60mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.10070.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -100/70mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.10070.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.10070.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-100mv",
+        "IMC Voltage": "-70mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
       "Id": "jingsha-x99-e8i.rom",
       "Name": "Stock JingSha X99-E8I",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1105,6 +1293,7 @@
       "Name": "Stock JingSha X99-E8I, Miyconst optimized",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal"
@@ -1117,6 +1306,7 @@
       "Name": "Stock JingSha X99-E8I, TU",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.tu.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.tu.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1132,6 +1322,7 @@
       "Name": "Stock JingSha X99-E8I, TU FFS",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.tu.v3p0.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.tu.v3p0.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1147,6 +1338,7 @@
       "Name": "Stock JingSha X99-E8I, TU FFS -50/50mv",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.tu.v3p50.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.tu.v3p50.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1162,6 +1354,7 @@
       "Name": "Stock JingSha X99-E8I, TU FFS -70/50mv",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.tu.v3p70.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.tu.v3p70.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1177,6 +1370,7 @@
       "Name": "Stock JingSha X99-E8I, TU FFS -80/50mv",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.tu.v3p80.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.tu.v3p80.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1192,6 +1386,7 @@
       "Name": "Stock JingSha X99-E8I, TU FFS -90/50mv",
       "MotherboardIds": [ "js-x99-e8i" ],
       "FileName": "Bioses/jingsha-x99-e8i.tu.v3p90.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99-e8i.tu.v3p90.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1207,6 +1402,7 @@
       "Name": "Stock Machinist X99Z",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1219,6 +1415,7 @@
       "Name": "Stock Machinist X99Z, RAM timings",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1232,6 +1429,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, TU EFI",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.tu.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1246,6 +1444,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, macOS",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.mi8.macos.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.mi8.macos.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "macOS optimal",
@@ -1260,6 +1459,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, TU FFS",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p0.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.tu.v3p0.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1276,6 +1476,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, TU FFS -50/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p50.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.tu.v3p50.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1292,6 +1493,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, TU FFS -70/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p70.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.tu.v3p70.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1308,6 +1510,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, TU FFS -80/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p80.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.tu.v3p80.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1324,6 +1527,7 @@
       "Name": "Stock Machinist X99Z, RAM timings, TU FFS -90/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7" ],
       "FileName": "Bioses/machinist-x99z.tu.v3p90.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z.tu.v3p90.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1340,6 +1544,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU EFI",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.tu.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.tu.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1356,6 +1561,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU FFS -50/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.tu.v3p50.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.tu.v3p50.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1374,6 +1580,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU FFS -60/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.tu.v3p60.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.tu.v3p60.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1392,6 +1599,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU FFS -70/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.tu.v3p70.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.tu.v3p70.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1410,6 +1618,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU FFS -80/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.tu.v3p80.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.tu.v3p80.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1428,6 +1637,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU FFS -90/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.tu.v3p90.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.tu.v3p90.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1446,6 +1656,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU FFS -100/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.10050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.10050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1465,6 +1676,7 @@
       "Name": "C612RD24 for Machinist X99Z",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -1480,6 +1692,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1495,6 +1708,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU PEI -50/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.5050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.5050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1514,6 +1728,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU PEI -60/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.6050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.6050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1533,6 +1748,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU PEI -70/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.7050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.7050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1552,6 +1768,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU PEI -80/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.8050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.8050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1571,6 +1788,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU PEI -90/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.9050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.9050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1590,6 +1808,7 @@
       "Name": "C612RD24 for Machinist X99Z, Mi8, TU PEI -100/50mv",
       "MotherboardIds": [ "mn-x99z", "az-x99-pe7", "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99z-c612rd24.s3tt.10050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99z-c612rd24.s3tt.10050.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1609,6 +1828,7 @@
       "Name": "Stock Machinist X99-K9",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1621,6 +1841,7 @@
       "Name": "Stock Machinist X99-RS9",
       "MotherboardIds": [ "machinist-x99-rs9" ],
       "FileName": "Bioses/machinist-x99-rs9.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-rs9.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1633,6 +1854,7 @@
       "Name": "Stock Machinist X99-RS9, RAM Timings",
       "MotherboardIds": [ "machinist-x99-rs9" ],
       "FileName": "Bioses/machinist-x99-rs9.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-rs9.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -1646,6 +1868,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1659,6 +1882,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU, TU PEI -50/50mv",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.s3tt.5050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.s3tt.5050.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1676,6 +1900,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU, TU PEI -60/50mv",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.s3tt.6050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.s3tt.6050.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1693,6 +1918,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU, TU PEI -70/50mv",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.s3tt.7050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.s3tt.7050.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1710,6 +1936,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU, TU PEI -80/50mv",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.s3tt.8050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.s3tt.8050.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1727,6 +1954,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU, TU PEI -90/50mv",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.s3tt.9050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.s3tt.9050.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1744,6 +1972,7 @@
       "Name": "Stock Machinist X99-K9, O.C.RU, TU PEI -100/50mv",
       "MotherboardIds": [ "machinist-x99-k9" ],
       "FileName": "Bioses/machinist-x99-k9.oc.ru.s3tt.10050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x99-k9.oc.ru.s3tt.10050.rom.zip",
       "Description": "",
       "Properties": {
         "RAM timings": "Unlocked",
@@ -1761,6 +1990,7 @@
       "Name": "Stock Veineda X99",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.rom.zip",
       "Description": "",
       "Properties": {},
       "Chipsets": [ "X99", "C612" ],
@@ -1771,6 +2001,7 @@
       "Name": "Stock Veineda X99, Miyconst optimal",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal"
@@ -1783,6 +2014,7 @@
       "Name": "Stock Veineda X99, TU EFI",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.tu.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.tu.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1796,6 +2028,7 @@
       "Name": "Stock Veineda X99, TU FFS",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.tu.v3p0.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.tu.v3p0.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1811,6 +2044,7 @@
       "Name": "Stock Veineda X99, TU FFS -50/50mv",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.tu.v3p50.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.tu.v3p50.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1826,6 +2060,7 @@
       "Name": "Stock Veineda X99, TU FFS -70/50mv",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.tu.v3p70.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.tu.v3p70.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1841,6 +2076,7 @@
       "Name": "Stock Veineda X99, TU FFS -80/50mv",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.tu.v3p80.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.tu.v3p80.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1856,6 +2092,7 @@
       "Name": "Stock Veineda X99, TU FFS -90/50mv",
       "MotherboardIds": [ "vn-x99" ],
       "FileName": "Bioses/veineda-x99.tu.v3p90.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/veineda-x99.tu.v3p90.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1871,6 +2108,7 @@
       "Name": "Stock Alzenit X99-PE7",
       "MotherboardIds": [ "az-x99-pe7" ],
       "FileName": "Bioses/alzenit-x99-pe7.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/alzenit-x99-pe7.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1883,6 +2121,7 @@
       "Name": "Stock JingSha X99M-G2",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1895,6 +2134,7 @@
       "Name": "Stock JingSha X99M-H",
       "MotherboardIds": [ "js-x99m-h" ],
       "FileName": "Bioses/jingsha-x99m-h.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-h.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1907,6 +2147,7 @@
       "Name": "Stock JingSha X99M-H2",
       "MotherboardIds": [ "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-h2.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-h2.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default"
@@ -1919,6 +2160,7 @@
       "Name": "Stock JingSha X99M-G2, Miyconst optimal",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1932,6 +2174,7 @@
       "Name": "Stock JingSha X99M-G2, TU EFI",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.tu.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.tu.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1946,6 +2189,7 @@
       "Name": "Stock JingSha X99M-G2, TU FFS",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.tu.v3p0.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.tu.v3p0.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1962,6 +2206,7 @@
       "Name": "Stock JingSha X99M-G2, TU FFS -50/50mv",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.tu.v3p50.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.tu.v3p50.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1978,6 +2223,7 @@
       "Name": "Stock JingSha X99M-G2, TU FFS -70/50mv",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.tu.v3p70.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.tu.v3p70.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -1994,6 +2240,7 @@
       "Name": "Stock JingSha X99M-G2, TU FFS -80/50mv",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.tu.v3p80.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.tu.v3p80.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -2010,6 +2257,7 @@
       "Name": "Stock JingSha X99M-G2, TU FFS -90/50mv",
       "MotherboardIds": [ "js-x99m-g2", "js-x99m-h", "js-x99m-h2" ],
       "FileName": "Bioses/jingsha-x99m-g2.tu.v3p90.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/jingsha-x99m-g2.tu.v3p90.mi8.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Miyconst optimal",
@@ -2026,6 +2274,7 @@
       "Name": "Ant Country X99S Gaming D3",
       "MotherboardIds": [ "ac-x99s-d3" ],
       "FileName": "Bioses/ant-country-x99s-d3.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/ant-country-x99s-d3.rom.zip",
       "Description": "Stock Ant Country X99S Gaming D3 BIOS",
       "Properties": {},
       "Chipsets": [ "X99", "C612" ],
@@ -2036,6 +2285,7 @@
       "Name": "Ant Country X99S Gaming D4",
       "MotherboardIds": [ "ac-x99s-d4" ],
       "FileName": "Bioses/ant-country-x99s-d4.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/ant-country-x99s-d4.rom.zip",
       "Description": "Stock Ant Country X99S Gaming D4 BIOS",
       "Properties": {},
       "Chipsets": [ "X99", "C612" ],
@@ -2046,6 +2296,7 @@
       "Name": "Machinist X79 V2.82, xeon-e5450.ru",
       "MotherboardIds": [ "mn-x79-v2.82" ],
       "FileName": "Bioses/machinist-x79-v2.82.e5450.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/machinist-x79-v2.82.e5450.rom.zip",
       "Description": "Machinist X79 V2.82 BIOS from xeon-e5450.ru",
       "Properties": {
         "Edition": "Kupi Deshevo",
@@ -2059,8 +2310,9 @@
     {
       "Id": "hz-x99-8m-f.rom",
       "Name": "Stock Huananzhi X99-8M-F",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2071,10 +2323,43 @@
       "Tags": [ "huananzhi", "8mf", "b85", "ddr4" ]
     },
     {
+      "Id": "hz-x99-zd4.rom",
+      "Name": "Stock Huananzhi X99-ZD4",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Date": "2020.11.27",
+        "Url": "http://www.huananzhi.com:8080/driversdownload/X99-BD4Drive/X99-ZD4%20V1.0Bios.rar"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
       "Id": "hz-x99-8m-f.tp.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2088,8 +2373,9 @@
     {
       "Id": "hz-x99-8m-f.tp.tu.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU EFI",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.tu.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.tu.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2104,8 +2390,9 @@
     {
       "Id": "hz-x99-8m-f.tp.s3tt.5050.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU PEI -50/50mv",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.s3tt.5050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.s3tt.5050.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2122,8 +2409,9 @@
     {
       "Id": "hz-x99-8m-f.tp.s3tt.6050.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU PEI -60/50mv",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.s3tt.6050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.s3tt.6050.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2140,8 +2428,9 @@
     {
       "Id": "hz-x99-8m-f.tp.s3tt.7050.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU PEI -70/50mv",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.s3tt.7050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.s3tt.7050.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2158,8 +2447,9 @@
     {
       "Id": "hz-x99-8m-f.tp.s3tt.8050.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU PEI -80/50mv",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.s3tt.8050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.s3tt.8050.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2176,8 +2466,9 @@
     {
       "Id": "hz-x99-8m-f.tp.s3tt.9050.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU PEI -90/50mv",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.s3tt.9050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.s3tt.9050.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2194,8 +2485,9 @@
     {
       "Id": "hz-x99-8m-f.tp.s3tt.10050.rom",
       "Name": "Stock Huananzhi X99-8M-F, TP, TU PEI -100/50mv",
-      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9" ],
+      "MotherboardIds": [ "hz-x99-8m-f", "machinist-x99-rs9", "hz-x99-zd4" ],
       "FileName": "Bioses/huananzhi-x99-8m-f.tp.s3tt.10050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-8m-f.tp.s3tt.10050.rom.zip",
       "Description": "",
       "Properties": {
         "BIOS Settings": "Default",
@@ -2208,6 +2500,144 @@
       },
       "Chipsets": [ "B85" ],
       "Tags": [ "huananzhi", "8mf", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.tu.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU EFI",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.tu.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.tu.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "Manual EFI installation is required"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.s3tt.5050.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU PEI -50/50mv",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.s3tt.5050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.s3tt.5050.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "S3TurboHack V0.2",
+        "CPU Voltage": "-50mv",
+        "IMC Voltage": "-50mv"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.s3tt.6050.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU PEI -60/50mv",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.s3tt.6050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.s3tt.6050.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "S3TurboHack V0.2",
+        "CPU Voltage": "-60mv",
+        "IMC Voltage": "-50mv"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.s3tt.7050.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU PEI -70/50mv",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.s3tt.7050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.s3tt.7050.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "S3TurboHack V0.2",
+        "CPU Voltage": "-70mv",
+        "IMC Voltage": "-50mv"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.s3tt.8050.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU PEI -80/50mv",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.s3tt.8050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.s3tt.8050.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "S3TurboHack V0.2",
+        "CPU Voltage": "-80mv",
+        "IMC Voltage": "-50mv"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.s3tt.9050.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU PEI -90/50mv",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.s3tt.9050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.s3tt.9050.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "S3TurboHack V0.2",
+        "CPU Voltage": "-90mv",
+        "IMC Voltage": "-50mv"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "hz-x99-zd4.kot.s3tt.10050.rom",
+      "Name": "Stock Huananzhi X99-ZD4, Kot, TU PEI -100/50mv",
+      "MotherboardIds": [ "hz-x99-zd4" ],
+      "FileName": "Bioses/huananzhi-x99-zd4.kot.s3tt.10050.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-zd4.kot.s3tt.10050.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Huananzhi%20X99-ZD4",
+        "Turbo Unlock Driver": "S3TurboHack V0.2",
+        "CPU Voltage": "-100mv",
+        "IMC Voltage": "-50mv"
+      },
+      "Chipsets": [ "B85" ],
+      "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
     }
   ],
   "Tools": [
