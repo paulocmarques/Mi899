@@ -17,6 +17,10 @@
       "Code": "It"
     },
     {
+      "Name": "Magyar",
+      "Code": "Hu"
+    },
+    {
       "Name": "Polski",
       "Code": "Pl"
     },
@@ -612,6 +616,102 @@
       ]
     },
     {
+      "Id": "jginyue-x99m-plus",
+      "Name": "Jginyue X99M-Plus",
+      "Brand": "Jginyue",
+      "Model": "X99M-Plus",
+      "Version": "",
+      "Tags": [ "jginyue", "x99m-plus", "ddr4", "ddr3", "b85", "q87" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000", "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Jginyue X99M-Plus/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/Jginyue X99M-Plus/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Jginyue X99M-Plus D4, Qiyida X99-H9, Kllisre X99 V201, Machinist X99-RS9 – tests and conclusion",
+          "Url": "https://youtu.be/q7lRrVK6O7E"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 Jginyue X99M-Plus D4, Qiyida X99-H9, Kllisre X99 V201, Machinist X99-RS9 – тестування та вирок",
+          "Url": "https://youtu.be/eaXc2Ag2IEY"
+        }
+      ]
+    },
+    {
+      "Id": "qiyida-x99-h9",
+      "Name": "Qiyida X99-H9",
+      "Brand": "Qiyida",
+      "Model": "X99-H9",
+      "Version": "",
+      "Tags": [ "qiyida", "x99-h9", "ddr4", "b85", "q87" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000", "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Qiyida X99-H9/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/Qiyida X99-H9/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Jginyue X99M-Plus D4, Qiyida X99-H9, Kllisre X99 V201, Machinist X99-RS9 – tests and conclusion",
+          "Url": "https://youtu.be/q7lRrVK6O7E"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 Jginyue X99M-Plus D4, Qiyida X99-H9, Kllisre X99 V201, Machinist X99-RS9 – тестування та вирок",
+          "Url": "https://youtu.be/eaXc2Ag2IEY"
+        }
+      ]
+    },
+    {
+      "Id": "kllisre-x99-v201",
+      "Name": "Kllisre X99 V201",
+      "Brand": "Kllisre",
+      "Model": "X99 V201",
+      "Version": "",
+      "Tags": [ "kllisre", "x99-v201", "ddr4", "h81" ],
+      "Description": "",
+      "ToolIds": [ "fpt-w64-9.1.10.1000", "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Kllisre X99-V201/TopView.jpg"
+        },
+        {
+          "Name": "IO panel",
+          "Url": "Images/Kllisre X99-V201/IoPanel.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Jginyue X99M-Plus D4, Qiyida X99-H9, Kllisre X99 V201, Machinist X99-RS9 – tests and conclusion",
+          "Url": "https://youtu.be/q7lRrVK6O7E"
+        },
+        {
+          "Author": "Miyconst",
+          "Name": "🇺🇦 Jginyue X99M-Plus D4, Qiyida X99-H9, Kllisre X99 V201, Machinist X99-RS9 – тестування та вирок",
+          "Url": "https://youtu.be/eaXc2Ag2IEY"
+        }
+      ]
+    },
+    {
       "Id": "vn-x99",
       "Name": "Veineda X99",
       "Brand": "Veineda",
@@ -961,6 +1061,29 @@
           "Url": "https://xeon-e5450.ru/soft/afudos/"
         }
       ]
+    },
+    {
+      "Id": "panshi-x99-d4-plus",
+      "Name": "Panshi X99-D4 Plus",
+      "Brand": "Panshi",
+      "Model": "X99-D4",
+      "Version": "V9.1",
+      "Tags": [ "panshi", "x99", "c612" ],
+      "Description": "",
+      "ToolIds": [ "afu-win-x64-5.12.03.2045" ],
+      "Images": [
+        {
+          "Name": "Top view",
+          "Url": "Images/Panshi X99-D4 Plus/TopView.jpg"
+        }
+      ],
+      "Links": [
+        {
+          "Author": "Miyconst",
+          "Name": "🇬🇧 Panshi X99-D4 Plus - live test and Q/A",
+          "Url": "https://youtu.be/JCqDjB8tTYU"
+        }
+      ]
     }
   ],
   "Bioses": [
@@ -1148,6 +1271,38 @@
       "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
     },
     {
+      "Id": "hz-x99-f8.s3tt.5050.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -70/50mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.5050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.5050.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-50mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "hz-x99-f8.s3tt.6050.mi8",
+      "Name": "Stock Huananzhi X99-F8, TU PEI -70/50mv",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.s3tt.6050.mi8.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.s3tt.6050.mi8.rom.zip",
+      "Description": "",
+      "Properties": {
+        "BIOS Settings": "Miyconst optimal",
+        "CPU Voltage": "-60mv",
+        "IMC Voltage": "-50mv",
+        "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
       "Id": "hz-x99-f8.s3tt.7050.mi8",
       "Name": "Stock Huananzhi X99-F8, TU PEI -70/50mv",
       "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
@@ -1271,6 +1426,21 @@
         "CPU Voltage": "-100mv",
         "IMC Voltage": "-70mv",
         "Turbo Unlock Driver": "S3TurboHack V0.2"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
+    },
+    {
+      "Id": "huananzhi-x99-f8.cx99de28.rom",
+      "Name": "CX99DE28 for Huananzhi X99-F8",
+      "MotherboardIds": [ "hz-x99-tf", "hz-x99-f8", "hz-x99-t8", "js-x99-d8", "hz-x99-8m", "ac-x99s-d3", "ac-x99s-d4" ],
+      "FileName": "Bioses/huananzhi-x99-f8.cx99de28.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/huananzhi-x99-f8.cx99de28.rom.zip",
+      "Description": "After flashing this BIOS you will not be able to use Flash Programming Tool (FPT) any more.\r\nThis BIOS may have problems with legacy boot, UEFI works well.\r\n⚠️ Some early samples of Huananzhi X99-TF have defective BIOS chips which are too small for this BIOS.",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "BIOS-iEngineer",
+        "URL": "https://github.com/BIOS-iEngineer/HUANANZHI-X99-F8"
       },
       "Chipsets": [ "X99", "C612" ],
       "Tags": [ "huananzhi", "tf", "f8", "t8", "8m", "tu", "x99", "c612" ]
@@ -2638,6 +2808,58 @@
       },
       "Chipsets": [ "B85" ],
       "Tags": [ "huananzhi", "zd4", "b85", "ddr4" ]
+    },
+    {
+      "Id": "panshi-x99-d4-plus.ch341a.rom",
+      "Name": "Stock Panshi X99-D8 Plus",
+      "MotherboardIds": [ "panshi-x99-d4-plus" ],
+      "FileName": "Bioses/panshi-x99-d4-plus.ch341a.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/panshi-x99-d4-plus.ch341a.rom.zip",
+      "Description": "This BIOS was read with a CH341A.",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "RAM timings": "Locked"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "panshi", "c612", "x99", "ddr4" ]
+    },
+    {
+      "Id": "panshi-x99-d4-plus.kot.rom",
+      "Name": "Panshi X99-D8 Plus, Kot",
+      "MotherboardIds": [ "panshi-x99-d4-plus" ],
+      "FileName": "Bioses/panshi-x99-d4-plus.kot.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/panshi-x99-d4-plus.kot.rom.zip",
+      "Description": "This BIOS was read with a CH341A.",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Panshi%20X99-D4%20PLUS"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "panshi", "c612", "x99", "ddr4" ]
+    },
+    {
+      "Id": "panshi-x99-d4-plus.kot.s3tt.505030.rom",
+      "Name": "Panshi X99-D8 Plus, Kot, TU PEI -50/50/30mv",
+      "MotherboardIds": [ "panshi-x99-d4-plus" ],
+      "FileName": "Bioses/panshi-x99-d4-plus.kot.s3tt.505030.rom.zip",
+      "DownloadUrl": "https://github.com/miyconst/Mi899/raw/master/src/Mi899.Data/Bioses/panshi-x99-d4-plus.kot.s3tt.505030.rom.zip",
+      "Description": "This BIOS was read with a CH341A.",
+      "Properties": {
+        "BIOS Settings": "Default",
+        "Author": "Koshak1013",
+        "RAM timings": "Unlocked",
+        "BCLK": "100.00 MHz",
+        "Url": "https://github.com/Koshak1013/HuananzhiX99_BIOS_mods/tree/master/Panshi%20X99-D4%20PLUS",
+        "Turbo Unlock Driver": "S3TurboHack V1.53",
+        "CPU Voltage": "-100mv",
+        "IMC Voltage": "-50mv",
+        "System Agent Voltage": "-30mv"
+      },
+      "Chipsets": [ "X99", "C612" ],
+      "Tags": [ "panshi", "c612", "x99", "ddr4" ]
     }
   ],
   "Tools": [
